@@ -1,4 +1,5 @@
 TiaraShowTime
+=============
 
 此项目为android手机项目，写的原因有2个
 1.刚刚学了android不久，需要一个项目练手
@@ -17,4 +18,4 @@ TiaraShowTime
 8.各种资源的使用，包括，drawable，raw和asset目录下资源的使用
 9.屏幕适配，所有涉及到长度的数值，都是用dip，并且在dimens.xml中进行定义
 10.ListView和GridView的使用
-=============
+
