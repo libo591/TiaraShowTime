@@ -1,0 +1,34 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:background="@drawable/main_bg" android:orientation="vertical">
+    
+    <LinearLayout  android:id="@+id/tabsbar" android:layout_width="fill_parent"
+    		android:layout_height="wrap_content" android:orientation="horizontal">
+    	<TextView android:id="@+id/btn1" 
+    	    android:text="@string/tabs1" 
+    	    android:layout_weight="1" 
+    	    android:layout_width="0dp"
+    		android:layout_height="@dimen/main_title_height"
+    		style="@style/tabText" 
+    		android:background="@drawable/tabitem_select" />
+    	<TextView android:id="@+id/btn2" 
+    	    android:text="@string/tabs2" 
+    	    android:layout_weight="1" 
+    	    android:layout_width="0dp"
+    		android:layout_height="@dimen/main_title_height"
+    		style="@style/tabText"  
+    		android:background="@drawable/tabitem_unselect" />
+    	<TextView android:id="@+id/btn3" 
+    	    android:text="@string/tabs3" 
+    	    android:layout_weight="1" 
+    	    android:layout_width="0dp"
+    		android:layout_height="@dimen/main_title_height" 
+    		style="@style/tabText"
+    		android:background="@drawable/tabitem_unselect" />
+    </LinearLayout>
+    <FrameLayout android:id="@+id/tabdetail" android:layout_width="match_parent"
+    		android:layout_height="match_parent">
+        
+    </FrameLayout>
+</LinearLayout>

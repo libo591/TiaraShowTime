@@ -1,0 +1,8 @@
+<GridView xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:id="@+id/gv1" android:layout_width="match_parent" android:layout_height="match_parent"
+	        android:numColumns="auto_fit"
+	        android:columnWidth="@dimen/main_detailpic_width" 
+	        android:horizontalSpacing="@dimen/main_hor_spaceing"
+	        android:verticalSpacing="@dimen/main_ver_spaceing"
+	        android:stretchMode="columnWidth"  
+	        android:gravity="center" android:layout_marginTop="@dimen/main_margin_top"></GridView>

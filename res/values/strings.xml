@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">TiaraShowtime</string>
+    <string name="action_settings">Settings</string>
+    <string name="enjing">ej</string>
+    <string name="baolan">bl</string>
+    <string name="suyan">sy</string>
+    <string name="zhiyan">zy</string>
+    <string name="juli">jl</string>
+    <string name="xiaomin">xm</string>
+    <string name="zuhe">tiara</string>
+	<string name="tara">T-ara</string>
+	<string name="configSuccess">设置成功</string>
+	<string name="tabs1">资料</string>
+	<string name="tabs2">图片</string>
+	<string name="tabs3">MV</string>
+	<string name="loadingMsg">正在加载，请稍后....</string>
+</resources>
